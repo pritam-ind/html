@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Code Viewer</title>
+</head>
+<body>
+
+    <h1>Ideal structure of an HTML page!</h1>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8" /&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+            &lt;meta name="description" content="A brief description of your website." /&gt;
+            &lt;title&gt;Your Website Title&lt;/title&gt;
+        
+            &lt;!-- Link to external CSS --&gt;
+            &lt;link rel="stylesheet" href="css/style.css" /&gt;
+        
+            &lt;!-- Optional: Favicon --&gt;
+            &lt;link rel="icon" href="images/favicon.ico" type="image/x-icon" /&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;!-- Header --&gt;
+            &lt;header&gt;
+            &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;ul&gt;
+                &lt;li&gt;&lt;a href="index.html" class="active"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;!-- Add more links --&gt;
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+            &lt;/header&gt;
+        
+            &lt;!-- Main content --&gt;
+            &lt;main&gt;
+            &lt;section&gt;
+                &lt;h2&gt;Introduction&lt;/h2&gt;
+                &lt;p&gt;This is the main content of your homepage.&lt;/p&gt;
+            &lt;/section&gt;
+            &lt;!-- Add more sections as needed --&gt;
+            &lt;/main&gt;
+        
+            &lt;!-- Footer --&gt;
+            &lt;footer&gt;
+            &lt;p&gt;&amp;copy; 2025 Your Name. All rights reserved.&lt;/p&gt;
+            &lt;/footer&gt;
+        
+            &lt;!-- Link to JavaScript --&gt;
+            &lt;script src="js/main.js"&gt;&lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+<hr><hr><hr>
+
+
+
+<!-- Ideal Sturctre of an HTML path! -->
+    <pre>
+        <h1>Ideal Sturctre of an HTML path!</h1>
+        project-name/
+        ├── index.html              # Main HTML file
+        ├── about.html              # Additional HTML page (example)
+        ├── css/                    # Stylesheets
+        │   └── style.css
+        ├── js/                     # JavaScript files
+        │   └── main.js
+        ├── images/                 # Image assets
+        │   └── logo.png
+        ├── fonts/                  # Custom fonts (optional)
+        │   └── roboto.woff
+        ├── assets/                 # Other assets like videos, docs (optional)
+        │   └── intro.mp4
+        ├── components/             # Reusable HTML parts (optional)
+        │   └── header.html
+        └── README.md               # Documentation (optional)
+
+    </pre>
+<hr>
+
+
+
+
+<pre><p>
+    <b><big>Basics about the HTML</big></b>
+        If we want to print your HTML code as visible text on the webpage (instead of having the browser 
+        interpret and render it), you need to escape special characters like &lt, &gt, and &. The easiest way
+        to do this is by placing your code inside a &lt pre &gt and &lt code &gt block and replacing special characters
+        with HTML entities.
+
+        To show HTML code as-is on the page, you need to escape it using HTML entities:
+
+        &lt → & lt;
+
+        &gt → & gt;
+
+        &amp → & amp;
+        Note: no spaces between & and lt/gt/amp </p>
+    </pre>
+
+</body>
+</html>
 
